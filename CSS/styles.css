@@ -1,0 +1,112 @@
+/*class selectors*/
+
+.start1{
+  display: inline-block;
+  position: absolute;
+  left: 70%;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 20px;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 12px;
+  transition: all .3s;
+  color: white;
+}
+.start2{
+  display: inline-block;
+  position: absolute;
+  left: 80%;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 20px;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 12px;
+  transition: all .3s;
+  color: white;
+}
+.start:hover{
+  height: 45px;
+  width: 100px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: white;
+  border-radius: 0px;
+  border-width: thin;
+}
+
+.projectheader{
+  display: inline-block;
+  padding-left: 80px;
+  padding-top: 0px;
+  font-size: 2rem;
+}
+.logo{
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 150px;
+  right: 150px;
+  border-radius: 30px;
+}
+.div-button{
+  background-color: #14279B;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 200px;
+  font-size: 1.05rem;
+}
+.submit{
+  background-color: #14279B;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 90px;
+  font-size: 1.05rem;
+  border-radius: 12px;
+}
+.login{
+  height: 250px;
+}
+.sign-up{
+  height: 420px;
+}
+.create{
+  height: 650px;
+}
+/* tag selectors */
+body{
+  margin: 0px;
+  font-size: 1.2rem;
+  background-color: lightgrey;
+}
+header{
+  background-color:#14279B;
+  color: white;
+  height: 90px;
+}
+div{
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 50px;
+  height: 200px;
+  width: 80%;
+  background-color: white;
+  color: #14279B;
+}
+input{
+  border-style: inset;
+  border-width: thin;
+  margin-right: 20px;
+}
+label{
+  margin-right: 20px;
+}
